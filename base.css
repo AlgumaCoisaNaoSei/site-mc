@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+
+header {
+    background-color: #0d176d;
+    padding: 1em 2em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 3em;
+    /* padding: 1em; */
+    line-height: 2em;
+}
+
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 2em;;
+    text-transform: uppercase;
+    /* padding-bottom: 1em; */
+    text-align: center;
+    font-weight: bold;
+    max-width: 940px;
+    margin: 1em auto;
+    /* text-shadow: 2px 2px cadetblue; */
+}
+
+p {
+    text-align: justify;
+    padding: 0 5em;
+    max-width: 940px;
+    margin: 1em auto;
+}
+
+ul {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.caixa-do-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.logo-do-menu {
+    max-width: 150px;
+}
+
+.caixa-do-menu ul {
+    text-align: right;
+}
+.caixa-do-menu li{
+    display: inline;
+    list-style: none;
+    padding: 0em 0.5em;
+
+}
+
+.caixa-do-menu a {
+    color: aliceblue;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.caixa-do-menu a:hover {
+    color:#08032b;
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 2em;
+    /* margin: 0 auto; */
+}
+
+#banner {
+    padding: 0; 
+}
+
+#conheca-nossa-trajetoria {
+    background-color: #ffffff;
+    color: #fff;
+}
+
+#nossos-cursos {
+    background-color: #ffffff;
+    padding: 0;
+}
+
+#nossos-cursos img {
+    max-height: 10px;
+    width: auto;
+}
+
+h3 {
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#nossos-cursos ul {
+    display: flex;
+    max-width: 940px;
+    margin: 200px;
+}
+
+#nossos-cursos li {
+    padding: 3em 2em;
+    height: 200px;
+    text-align: center;
+    flex: 1;
+}
+
+#nossos-cursos li:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 1s background;
+}
+
+#estrutura-e-diferenciais {
+    background-color: #ffffff;
+}
+
+#estrutura-e-diferenciais ul{
+    display: flex;
+    padding: 1em;
+    max-width: 940px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+#estrutura-e-diferenciais li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    flex: 1 1 250px;
+    background-color: #fff;
+    margin: 0.5em;
+    padding: 1em;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+#estrutura-e-diferenciais li:hover {
+    transform: scale(1.03);
+    transform: 0.3s all;
+}
